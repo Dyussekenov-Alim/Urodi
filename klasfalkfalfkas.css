@@ -1,0 +1,121 @@
+body{
+    background: rgb(113,81,170);
+background: linear-gradient(40deg, rgba(113,81,170,0.758140756302521) 0%, rgba(74,69,55,0.6152836134453781) 22%, rgba(126,81,255,0.7917542016806722) 100%);
+    rotate: 3deg;
+    color: #4A412A;
+}
+.textsizo{
+    font-size: 49px;
+    color: #635b4749;
+    rotate: 4deg;
+}
+.holyshit{
+    position: absolute;
+    top: 32px;
+    left: 49%;
+    width: 31px;
+    height: 92%;
+}
+.rotateman{
+    rotate: 32deg;
+    position: absolute;
+    top: 300px;
+    left: 45%;
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #5c4640, #b69175, #750851, #4f6646, #a1e89b, #75466b, #ac9da1, #4ab7ff54);
+    background-size: 200% 200%;
+    animation: gradient 0.001s linear infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+.color{
+    color: #ff7e5f;
+}
+.zindexomg{
+    z-index: 1;
+}
+.neon-text {
+    color: #fff;
+    text-shadow: 0 0 100px #ff00ff, 0 0 200px #ff00ff, 0 0 300px #ff00ff, 0 0 400px #ff00ff, 0 0 500px #ff00ff, 0 0 600px #ff00ff, 0 0 700px #ff00ff, 0 0 800px #ff00ff;
+    animation: flicker 1s infinite alternate;
+  }
+  
+  @keyframes flicker {
+    0% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .background1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #914b38, #3acf2c, #750851, #4f6646, #a6edff, #75466b, #ff0044, #d1820c54);
+    background-size: 200% 200%;
+    animation: gradient 0.001s linear infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  .sizo{
+    width: 321px;
+    height: 303%;
+    position: absolute;
+    top: 700px;
+    left: 367px;
+  }
+  .jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .semi {
+    color: rgba(204, 38, 38, 0.349); /* Полупрозрачный цвет */
+   }  
+   .lenb{
+    width: 1005px;
+    height: 764px;
+    position: absolute;
+    z-index: -1;
+    top: -324px;
+    left: -645px;
+   }
